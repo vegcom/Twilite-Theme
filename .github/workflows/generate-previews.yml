@@ -1,0 +1,55 @@
+name: Generate Theme Previews
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'twilite.json', 'twilite-darker.json' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ 'twilite.json', 'twilite-darker.json' ]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install pillow
+
+      - name: Generate PNG previews
+        run: |
+          python -c """
+          import json
+          from PIL import Image
+          import os
+
+          def generate_previews(json_file, output_dir):
+          with open(json_file, 'r') as f:
+              theme = json.load(f)
+          colors = theme['colors']
+          os.makedirs(output_dir, exist_ok=True)
+          for color_name, hex_code in colors.items():
+              # Remove # and convert to RGB
+              rgb = tuple(int(hex_code.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
+              img = Image.new('RGB', (100, 100), rgb)
+              # Save as PNG with color code as filename
+              filename = f'{color_name.replace(\" \", \"_\")}_{hex_code.lstrip(\"#\")}.png'
+              img.save(os.path.join(output_dir, filename))
+
+          generate_previews('twilite.json', 'assets/img/twilite')
+          generate_previews('twilite-darker.json', 'assets/img/twilite-darker')"""
+
+      - name: Commit previews
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add assets/img/
+          git diff --staged --quiet || git commit -m 'Generate theme preview PNGs'
+          git push
