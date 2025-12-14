@@ -12,7 +12,7 @@ def generate_previews(json_file, output_dir):
         rgb = tuple(int(hex_code.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
         img = Image.new('RGB', (100, 100), rgb)
         # Save as PNG with color code as filename
-        filename = f'{color_name.replace(\" \", \"_\")}_{hex_code.lstrip(\"#\")}.png'
+        filename = f'{color_name.replace(" ", "_")}_{hex_code.lstrip("#")}.png'
         img.save(os.path.join(output_dir, filename))
 
 generate_previews('twilite.json', 'assets/img/twilite')
