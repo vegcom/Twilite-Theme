@@ -1,0 +1,24 @@
+name: twilite
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2
+  - ca-certificates
+  - libexpat
+  - libffi
+  - liblzma
+  - libsqlite
+  - libzlib
+  - openssl
+  - pip
+  - setuptools
+  - tk
+  - tzdata
+  - ucrt
+  - vc
+  - vc14_runtime
+  - vcomp14
+  - wheel
+  - pip:
+      - pillow
