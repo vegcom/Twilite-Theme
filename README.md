@@ -1,5 +1,9 @@
 # Twilite Theme
 
+<img src="./assets/icon.png" alt="icon" width="200"/>
+
+## Description
+
 > A dark color theme with a subtle purple tint
 
 ## Color Palette
