@@ -1,9 +1,7 @@
 name: Generate Theme Previews
-
 permissions:
   contents: write
   packages: write
-
 on:
   workflow_dispatch:
   push:
@@ -12,28 +10,30 @@ on:
   pull_request:
     branches: [ main ]
     paths: [ 'twilite.json', 'twilite-darker.json' ]
-
 jobs:
   generate:
     runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash -el {0}
-
     steps:
       - uses: actions/checkout@v4
       - uses: conda-incubator/setup-miniconda@v3
         with:
-          miniforge-version: latest
-          activate-environment: twilite
+          channels: conda-forge,defaults
           environment-file: environment.yml
-          python-version: 3.10
+          activate-environment: twilite
+          python-version: 3.11
+          mamba-version: "*"
       - name: Generate PNG previews
+        shell: bash -el {0}
         run: python ./scripts/generate_previews.py
-      - name: Commit previews
+      - name: Git config
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
+      - name: Commit previews
+        run: |
           git add assets/img/
           git status --porcelain assets/img/ | grep -q . || exit 0
           git diff --staged --quiet || git commit -m 'chore(preview): regenerate theme preview ♡'
