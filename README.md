@@ -1,6 +1,6 @@
 # Twilite Theme
 
-<img src="./assets/icon.png" alt="icon" width="200"/>
+<img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/icon.png" alt="icon" width="200"/>
 
 ## Description
 
