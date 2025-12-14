@@ -1,6 +1,7 @@
 name: Generate Theme Previews
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths: [ 'twilite.json', 'twilite-darker.json' ]
