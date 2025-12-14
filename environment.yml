@@ -1,24 +1,9 @@
-name: twilite
+name: twilite-theme
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - bzip2
-  - ca-certificates
-  - libexpat
-  - libffi
-  - liblzma
-  - libsqlite
-  - libzlib
-  - openssl
+  - python >=3.10,<4.0
   - pip
-  - setuptools
-  - tk
-  - tzdata
-  - ucrt
-  - vc
-  - vc14_runtime
-  - vcomp14
-  - wheel
   - pip:
-      - pillow
+    - pillow

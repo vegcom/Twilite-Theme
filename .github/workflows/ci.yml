@@ -22,9 +22,15 @@ jobs:
         with:
           channels: conda-forge,defaults
           environment-file: environment.yml
-          activate-environment: twilite
+          activate-environment: twilite-theme
           python-version: 3.11
-          mamba-version: "*"
+          use-mamba: false
+      # Debug steps are to show conda env
+      - name: Conda debugging
+        if:  runner.debug == '1'
+        run: |
+          conda env export
+          conda env list
       - name: Generate PNG previews
         shell: bash -el {0}
         run: python ./scripts/generate_previews.py
