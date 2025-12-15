@@ -22,14 +22,14 @@
 | Purple        | `#d960a8` | `217 96 168`  | `324° 62% 61%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/purple.png" width="30" height="30"/>        |
 | Cyan          | `#70c9dd` | `112 201 221` | `191° 61% 65%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/cyan.png" width="30" height="30"/>          |
 | White         | `#a0a0a0` | `160 160 160` | `0°   0% 63%`   | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/white.png" width="30" height="30"/>         |
-| Bright Black  | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-black.png" width="30" height="30"/>  |
-| Bright Red    | `#e85858` | `232 88 88`   | `0°   75% 63%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-red.png" width="30" height="30"/>    |
-| Bright Green  | `#58e878` | `88 232 120`  | `133° 75% 63%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-green.png" width="30" height="30"/>  |
-| Bright Yellow | `#e0e888` | `224 232 136` | `65°  68% 72%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-yellow.png" width="30" height="30"/> |
-| Bright Blue   | `#b89ae0` | `184 154 224` | `266° 53% 74%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-blue.png" width="30" height="30"/>   |
-| Bright Purple | `#e878c0` | `232 120 192` | `321° 70% 69%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-purple.png" width="30" height="30"/> |
-| Bright Cyan   | `#88dde8` | `136 221 232` | `187° 68% 72%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-cyan.png" width="30" height="30"/>   |
-| Bright White  | `#e8e8e8` | `232 232 232` | `0°   0% 91%`   | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/bright-white.png" width="30" height="30"/>  |
+| Bright Black  | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightBlack.png" width="30" height="30"/>  |
+| Bright Red    | `#e85858` | `232 88 88`   | `0°   75% 63%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightRed.png" width="30" height="30"/>    |
+| Bright Green  | `#58e878` | `88 232 120`  | `133° 75% 63%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightGreen.png" width="30" height="30"/>  |
+| Bright Yellow | `#e0e888` | `224 232 136` | `65°  68% 72%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightYellow.png" width="30" height="30"/> |
+| Bright Blue   | `#b89ae0` | `184 154 224` | `266° 53% 74%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightBlue.png" width="30" height="30"/>   |
+| Bright Purple | `#e878c0` | `232 120 192` | `321° 70% 69%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightPurple.png" width="30" height="30"/> |
+| Bright Cyan   | `#88dde8` | `136 221 232` | `187° 68% 72%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightCyan.png" width="30" height="30"/>   |
+| Bright White  | `#e8e8e8` | `232 232 232` | `0°   0% 91%`   | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightWhite.png" width="30" height="30"/>  |
 | Cursor        | `#ff79c6` | `255 121 198` | `326° 100% 74%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/cursor.png" width="30" height="30"/>        |
 | Selection     | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/selection.png" width="30" height="30"/>     |
 
@@ -47,14 +47,14 @@
 | Purple        | `#f060b3` | `240 96 179`  | `325° 83% 66%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/purple.png" width="30" height="30"/>        |
 | Cyan          | `#79ddf0` | `121 221 240` | `190° 80% 71%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/cyan.png" width="30" height="30"/>          |
 | White         | `#a8a8a8` | `168 168 168` | `0°   0% 66%`   | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/white.png" width="30" height="30"/>         |
-| Bright Black  | `#4d5066` | `77 80 102`   | `233° 14% 35%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-black.png" width="30" height="30"/>  |
-| Bright Red    | `#ff8080` | `255 128 128` | `0°   100% 75%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-red.png" width="30" height="30"/>    |
-| Bright Green  | `#7dffaa` | `125 255 170` | `141° 100% 75%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-green.png" width="30" height="30"/>  |
-| Bright Yellow | `#ffffb8` | `255 255 184` | `60°  100% 86%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-yellow.png" width="30" height="30"/> |
-| Bright Blue   | `#d4b5ff` | `212 181 255` | `265° 100% 85%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-blue.png" width="30" height="30"/>   |
-| Bright Purple | `#ffa8eb` | `255 168 235` | `314° 100% 83%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-purple.png" width="30" height="30"/> |
-| Bright Cyan   | `#b8ffff` | `184 255 255` | `180° 100% 86%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-cyan.png" width="30" height="30"/>   |
-| Bright White  | `#ffffff` | `255 255 255` | `0°   0% 100%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/bright-white.png" width="30" height="30"/>  |
+| Bright Black  | `#4d5066` | `77 80 102`   | `233° 14% 35%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightBlack.png" width="30" height="30"/>  |
+| Bright Red    | `#ff8080` | `255 128 128` | `0°   100% 75%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightRed.png" width="30" height="30"/>    |
+| Bright Green  | `#7dffaa` | `125 255 170` | `141° 100% 75%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightGreen.png" width="30" height="30"/>  |
+| Bright Yellow | `#ffffb8` | `255 255 184` | `60°  100% 86%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightYellow.png" width="30" height="30"/> |
+| Bright Blue   | `#d4b5ff` | `212 181 255` | `265° 100% 85%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightBlue.png" width="30" height="30"/>   |
+| Bright Purple | `#ffa8eb` | `255 168 235` | `314° 100% 83%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightPurple.png" width="30" height="30"/> |
+| Bright Cyan   | `#b8ffff` | `184 255 255` | `180° 100% 86%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightCyan.png" width="30" height="30"/>   |
+| Bright White  | `#ffffff` | `255 255 255` | `0°   0% 100%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightWhite.png" width="30" height="30"/>  |
 | Cursor        | `#ff79c6` | `255 121 198` | `326° 100% 74%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/cursor.png" width="30" height="30"/>        |
 | Selection     | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/selection.png" width="30" height="30"/>     |
 
