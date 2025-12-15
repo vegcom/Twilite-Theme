@@ -30,8 +30,8 @@
 | Bright Purple | `#e878c0` | `232 120 192` | `321° 70% 69%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightPurple.png" width="30" height="30"/> |
 | Bright Cyan   | `#88dde8` | `136 221 232` | `187° 68% 72%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightCyan.png" width="30" height="30"/>   |
 | Bright White  | `#e8e8e8` | `232 232 232` | `0°   0% 91%`   | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/brightWhite.png" width="30" height="30"/>  |
-| Cursor        | `#ff79c6` | `255 121 198` | `326° 100% 74%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/cursor.png" width="30" height="30"/>        |
-| Selection     | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/selection.png" width="30" height="30"/>     |
+| Cursor        | `#ff79c6` | `255 121 198` | `326° 100% 74%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/cursorColor.png" width="30" height="30"/>        |
+| Selection     | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite/selectionBackground.png" width="30" height="30"/>     |
 
 ### Twilite (Darker)
 
@@ -55,8 +55,8 @@
 | Bright Purple | `#ffa8eb` | `255 168 235` | `314° 100% 83%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightPurple.png" width="30" height="30"/> |
 | Bright Cyan   | `#b8ffff` | `184 255 255` | `180° 100% 86%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightCyan.png" width="30" height="30"/>   |
 | Bright White  | `#ffffff` | `255 255 255` | `0°   0% 100%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/brightWhite.png" width="30" height="30"/>  |
-| Cursor        | `#ff79c6` | `255 121 198` | `326° 100% 74%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/cursor.png" width="30" height="30"/>        |
-| Selection     | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/selection.png" width="30" height="30"/>     |
+| Cursor        | `#ff79c6` | `255 121 198` | `326° 100% 74%` | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/cursorColor.png" width="30" height="30"/>        |
+| Selection     | `#44475a` | `68 71 90`    | `232° 14% 31%`  | <img src="https://raw.githubusercontent.com/vegcom/Twilite-Theme/main/assets/img/twilite-darker/selectionBackground.png" width="30" height="30"/>     |
 
 ## License
 
