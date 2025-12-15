@@ -1,0 +1,12 @@
+[submodule "themes/VSCode"]
+	path = themes/VSCode
+	url = git@github.com:vegcom/VSCode-Twilite.git
+[submodule "themes/WindowsTerminal"]
+	path = themes/WindowsTerminal
+	url = git@github.com:vegcom/WindowsTerminal-Twilite.git
+[submodule "themes/Tmux"]
+	path = themes/Tmux
+	url = git@github.com:vegcom/Tmux-Twilite.git
+[submodule "themes/Starship"]
+	path = themes/Starship
+	url = git@github.com:vegcom/Starship-Twilite.git
